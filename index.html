@@ -14,41 +14,40 @@
 		<link rel="stylesheet" href="css/styles.css" />
 		<title>Студия</title>
 	</head>
-
 	<body>
 		<!-- head of documeent -->
 		<header class="menu-top">
 			<!-- head of document left (main)-->
-			<a href="./index.html" class="logo-studio">
-				<p class="logo-header">
-					<span class="logo-web">Web</span>Studio
-				</p>
-			</a>
-			<!-- head of document center (menu)-->
-			<nav>
-				<ul class="menu-top-center">
-					<li class="item">
-						<a class="menu-item current" href="./index.html">Студия</a>
-					</li>
-					<li class="item">
-						<a class="menu-item" href="./portfolio.html">Портфолио</a>
-					</li>
-					<li class="item">
-						<a class="menu-item" href="#">Контакты</a>
-					</li>
-				</ul>
-			</nav>
-			<!-- head of document right -->
-			<ul class="contacts">
-				<!-- e-mail -->
-				<li>
-					<a href="mailto:info@devstudio.com" class="mail-top">info@devstudio.com</a>
-				</li>
-				<!-- phone -->
-				<li>
-					<a href="tel:+380961111111" class="phone-top">+38 096 111 11 11</a>
-				</li>
-			</ul>
+			<div class="container">
+				<div class="flex">
+					<nav class="nav">
+						<a href="./index.html" class="logo-web-header">Web<span class="logo-studio-header">Studio</span> </a>
+						<!-- head of document center (menu)-->
+						<ul class="menu-top-center">
+							<li class="item">
+								<a class="menu-item current" href="./index.html">Студия</a>
+							</li>
+							<li class="item">
+								<a class="menu-item" href="./portfolio.html">Портфолио</a>
+							</li>
+							<li class="item">
+								<a class="menu-item" href="#">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+					<!-- head of document right -->
+					<ul class="contacts">
+						<!-- e-mail -->
+						<li class="item">
+							<a href="mailto:info@devstudio.com">info@devstudio.com</a>
+						</li>
+						<!-- phone -->
+						<li class="item">
+							<a href="tel:+380961111111">+38 096 111 11 11</a>
+						</li>
+					</ul>
+				</div>
+			</div>
 		</header>
 		<!-- main -->
 		<main>
@@ -58,44 +57,46 @@
 			</section>
 			<section class="middle-main section">
 				<div class="container">
-					<h2 class="menu-item-name visually-hidden">Наши преимущества</h2>
+					<h2 class="visually-hidden">Наши преимущества</h2>
 					<ul class="middle-main-list">
-						<li class="middle-main-item">
+						<li class="item">
 							<h3>Внимание к деталям</h3>
 							<p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
 						</li>
-						<li class="middle-main-item">
+						<li class="item">
 							<h3>Пунктуальность</h3>
 							<p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
 						</li>
-						<li class="middle-main-item">
+						<li class="item">
 							<h3>Планирование</h3>
 							<p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
 						</li>
-						<li class="middle-main-item">
+						<li class="item">
 							<h3>Современные технологии</h3>
 							<p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
 						</li>
 					</ul>
 				</div>
-				<div class="container what-we-do">
+			</section>
+			<section class="middle-img section">
+				<div class="container">
 					<h2 class="menu-item-name">Чем мы занимаемся</h2>
-					<ul class="middle-main-list">
-						<li>
+					<ul class="middle-main-title">
+						<li class="item">
 							<img
 								src="images/close-up-image-programer-working-his-desk-office_1098-18707.jpg"
 								alt="программист работающий в офисе"
 								width="370"
 							/>
 						</li>
-						<li>
+						<li class="item">
 							<img
 								src="images/web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg"
 								alt="веб-дизайнеры разрабатывают интерфейс приложений для смартфонов"
 								width="370"
 							/>
 						</li>
-						<li>
+						<li class="item">
 							<img
 								src="images/creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg"
 								alt="художник с рабочей цветовой гаммой в графическом планшете"
@@ -107,27 +108,35 @@
 			</section>
 			<section class="bottom-main section">
 				<div class="container">
-					<h2 class="menu-item-name">Наша команда</h2>
-					<ul class="bottom-main-list">
-						<li class="photo">
+					<h2 class="team-title">Наша команда</h2>
+					<ul class="team-list">
+						<li class="item">
 							<img src="images/4853.jpg" alt="Игорь Демьяненко" width="270" />
-							<h3>Игорь Демьяненко</h3>
-							<p class="profession">Product Designer</p>
+							<div class="item-text">
+								<h3>Игорь Демьяненко</h3>
+								<p>Product Designer</p>
+							</div>
 						</li>
-						<li class="photo">
+						<li class="item">
 							<img src="images/5844.jpg" alt="Ольга Репина" width="270" />
-							<h3>Ольга Репина</h3>
-							<p class="profession">Frontend Developer</p>
+							<div class="item-text">
+								<h3>Ольга Репина</h3>
+								<p>Frontend Developer</p>
+							</div>
 						</li>
-						<li class="photo">
+						<li class="item">
 							<img src="images/16166.jpg" alt="Николай Тарасов" width="270" />
-							<h3>Николай Тарасов</h3>
-							<p class="profession">Marketing</p>
+							<div class="item-text">
+								<h3>Николай Тарасов</h3>
+								<p>Marketing</p>
+							</div>
 						</li>
-						<li class="photo">
+						<li class="item">
 							<img src="images/2968.jpg" alt="Михаил Ермаков" width="270" />
-							<h3>Михаил Ермаков</h3>
-							<p class="profession">UI Designer</p>
+							<div class="item-text">
+								<h3>Михаил Ермаков</h3>
+								<p>UI Designer</p>
+							</div>
 						</li>
 					</ul>
 				</div>
@@ -135,20 +144,20 @@
 		</main>
 		<!-- footer -->
 		<footer class="menu-footer">
-			<a href="./index.html" class="logo-studio-footer">
-				<p class="logo-header logo-footer">
-					<span class="logo-web">Web</span>Studio
-				</p>
-			</a>
-			<address class="footer-address">г. Киев, пр-т Леси Украинки, 26</address>
-			<ul class="contacts-footer">
-				<li>
-					<a href="mailto:info@devstudio.com">info@devstudio.com</a>
-				</li>
-				<li>
-					<a href="tel:+380991111111">+38 099 111 11 11</a>
-				</li>
-			</ul>
+			<div class="container">
+				<a href="./index.html" class="logo-web-footer">Web<span class="logo-studio-footer">Studio</span> </a>
+				<address class="footer-address">
+					<p class="contacts-footer">г. Киев, пр-т Леси Украинки, 26</p>
+					<ul>
+						<li class="item">
+							<a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+						</li>
+						<li class="item">
+							<a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
+						</li>
+					</ul>
+				</address>
+			</div>
 		</footer>
 	</body>
 </html>
