@@ -23,7 +23,13 @@ html {
 	box-sizing: inherit;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -41,25 +47,25 @@ img {
 }
 
 h2 {
-  color: var(--primary-text-color);
+	color: var(--primary-text-color);
 }
 
 a {
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 .menu-top {
-  align-items: center;
-  background-color: var(--menu-bck);
-  border-bottom: 1px solid var(--border-header-color);
+	align-items: center;
+	background-color: var(--menu-bck);
+	border-bottom: 1px solid var(--border-header-color);
 }
 
 .container {
@@ -76,28 +82,28 @@ ul {
 }
 
 .flex {
-  display: flex;
-  align-items: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
+	display: flex;
+	align-items: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
 
 .nav {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .menu-top {
@@ -114,7 +120,7 @@ ul {
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
-	color: var(--accent-color);	
+	color: var(--accent-color);
 }
 
 .logo-studio-header {
@@ -143,7 +149,7 @@ ul {
 }
 
 .menu-top-center .menu-item.current {
-	color: var(--accent-color);	
+	color: var(--accent-color);
 }
 
 .contacts {
@@ -221,7 +227,7 @@ ul {
 }
 
 .middle-main-list h3 {
-  	margin-bottom: 10px;
+	margin-bottom: 10px;
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
@@ -231,12 +237,12 @@ ul {
 }
 
 .middle-main-list .item {
-  width: 270px;
+	width: 270px;
 }
 
 .middle-main-list p {
 	font-size: 14px;
-	line-height: 1.71;	
+	line-height: 1.71;
 }
 
 .middle-main-list .item + .item {
@@ -267,7 +273,7 @@ ul {
 }
 
 .bottom-main {
-  background-color: var(--bottom-main-bck);
+	background-color: var(--bottom-main-bck);
 }
 
 .team-title {
@@ -280,14 +286,13 @@ ul {
 }
 
 .bottom-main .item {
-  background: var(--menu-bck);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
+	background: var(--menu-bck);
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
 }
 
 .bottom-main .item + .item {
-  margin-left: 30px;
+	margin-left: 30px;
 }
 
 .team-list {
@@ -302,15 +307,15 @@ ul {
 }
 
 .bottom-main h3 {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.18;
+	letter-spacing: 0.03em;
+	color: var(--primary-text-color);
 }
 
 .bottom-main p {
-	margin-top: 10px; 
+	margin-top: 10px;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.18;
@@ -318,8 +323,8 @@ ul {
 }
 
 .item-text {
-  padding-top: 30px;
-  padding-bottom: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .menu-footer {
@@ -357,7 +362,7 @@ ul {
 }
 
 .menu-footer .item + .item {
-  margin-top: 9px;
+	margin-top: 9px;
 }
 
 .menu-footer .link {
@@ -368,7 +373,7 @@ ul {
 
 .menu-footer .link:hover,
 .menu-footer .link:focus {
-  color: var(--accent-color);
+	color: var(--accent-color);
 }
 
 button {
@@ -387,19 +392,19 @@ button {
 }
 
 .filter-portfolio {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
 }
 
 .filter-portfolio .item + .item {
-  margin-left: 8px;
+	margin-left: 8px;
 }
 
 button:hover,
 button:focus {
-  color: var(--menu-bck);
-  background-color: var(--accent-color);
+	color: var(--menu-bck);
+	background-color: var(--accent-color);
 }
 
 .menu-portfolio {
