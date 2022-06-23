@@ -63,8 +63,11 @@ ul {
 }
 
 .menu-top {
+	display: flex;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	align-items: center;
-	background-color: var(--menu-bck);
+	background: var(--menu-bck);
 	border-bottom: 1px solid var(--border-header-color);
 }
 
@@ -78,14 +81,11 @@ ul {
 
 .section {
 	padding-top: 94px;
-	padding-bottom: 94px;
 }
 
 .flex {
 	display: flex;
 	align-items: center;
-	padding-top: 25px;
-	padding-bottom: 25px;
 }
 
 .visually-hidden {
@@ -104,13 +104,6 @@ ul {
 .nav {
 	display: flex;
 	align-items: center;
-}
-
-.menu-top {
-	display: flex;
-	align-items: center;
-	border-bottom: 10px var(--border-header-color);
-	background: var(--menu-bck);
 }
 
 .logo-web-header {
@@ -243,6 +236,7 @@ ul {
 .middle-main-list p {
 	font-size: 14px;
 	line-height: 1.71;
+	color: var(--primary-contact-color)
 }
 
 .middle-main-list .item + .item {
@@ -258,7 +252,6 @@ ul {
 
 .middle-img {
 	text-align: center;
-	padding-top: 94px;
 	padding-bottom: 94px;
 }
 
@@ -273,6 +266,7 @@ ul {
 }
 
 .bottom-main {
+	padding-bottom: 94px;
 	background-color: var(--bottom-main-bck);
 }
 
@@ -325,6 +319,10 @@ ul {
 .item-text {
 	padding-top: 30px;
 	padding-bottom: 30px;
+}
+
+.item-text p {
+	color: var(--primary-contact-color);
 }
 
 .menu-footer {
@@ -391,6 +389,9 @@ button {
 	color: var(--primary-text-color);
 }
 
+.portfolio {
+	padding-bottom: 94px;
+}
 .filter-portfolio {
 	display: flex;
 	justify-content: center;
@@ -424,7 +425,7 @@ button:focus {
 
 .menu-portfolio .item-text {
 	padding: 20px 24px;
-	border: 1px solid #eeeeee;
+	border: 1px solid var(--border-service-color);
 }
 
 .menu-portfolio h2 {
